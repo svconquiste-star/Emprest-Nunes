@@ -1,13 +1,14 @@
 :root {
-  --bg-base: #E9E8E7;
+  --bg-base: #FFF8EE;
   --bg-card: #ffffff;
-  --border: rgba(250, 142, 0, 0.18);
-  --brand: #FA8E00;
-  --brand-dark: #e07e00;
-  --gold: #F7B04B;
+  --border: rgba(1, 75, 174, 0.18);
+  --brand: #014BAE;
+  --brand-dark: #004AAD;
+  --gold: #90B1D5;
   --text: #1e1e1e;
   --muted: rgba(30, 30, 30, 0.5);
   --error: #f87171;
+  --accent: #DAA479;
   --font-sans: 'Outfit', ui-sans-serif, system-ui, -apple-system, sans-serif;
   --font-serif: 'Merriweather', Georgia, serif;
 }
@@ -170,13 +171,13 @@ button {
   align-items: center;
   justify-content: center;
   gap: 10px;
-  box-shadow: 0 4px 20px rgba(250, 142, 0, 0.3);
+  box-shadow: 0 4px 20px rgba(1, 75, 174, 0.3);
   transition: transform 0.15s, box-shadow 0.15s;
 }
 
 .btn-whatsapp:hover:not([disabled]) {
   transform: translateY(-1px);
-  box-shadow: 0 6px 28px rgba(250, 142, 0, 0.45);
+  box-shadow: 0 6px 28px rgba(1, 75, 174, 0.45);
 }
 
 .btn-whatsapp:active:not([disabled]) {
