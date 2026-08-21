@@ -16,7 +16,7 @@ const merriweather = Merriweather({
   display: 'swap',
 });
 
-const PIXEL_ID = '1624012508885708';
+const PIXEL_ID = '4505929459661626';
 const PIXEL_ID_2 = '1270209555097956';
 
 export const metadata = {
@@ -57,8 +57,8 @@ export default function RootLayout({ children }) {
   s.parentNode.insertBefore(t,s)
 }(window, document,'script','https://connect.facebook.net/en_US/fbevents.js');
 fbq('set','autoConfig',false,'${PIXEL_ID}');
-fbq('set','autoConfig',false,'${PIXEL_ID_2}');
 fbq('init','${PIXEL_ID}');
+fbq('set','autoConfig',false,'${PIXEL_ID_2}');
 fbq('init','${PIXEL_ID_2}');
 fbq('track','PageView');
             `,
