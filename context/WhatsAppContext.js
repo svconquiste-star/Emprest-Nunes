@@ -3,7 +3,7 @@
 import { createContext, useContext, useEffect, useState } from 'react';
 
 // Rodízio: o servidor (/api/whatsapp) alterna entre estes números a cada acesso.
-const WHATSAPP_PHONES = ['553199872948', '553798317033'];
+const WHATSAPP_PHONES = ['5531971167633', '5531971545366'];
 
 const WhatsAppContext = createContext({
   phone: WHATSAPP_PHONES[0],

@@ -1,6 +1,6 @@
 export const dynamic = 'force-dynamic';
 
-const NUMBERS = ['553199872948', '553798317033'];
+const NUMBERS = ['5531971167633', '5531971545366'];
 
 let counter = 0;
 
